@@ -1,0 +1,22 @@
+{
+  "name": "skillcast-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.8.1",
+    "@parcel/core": "^2.8.1",
+    "@types/node": "^18.11.11",
+    "parcel": "^2.8.1",
+    "tsx": "^3.12.1"
+  }
+}
