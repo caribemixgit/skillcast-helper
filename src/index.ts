@@ -61,7 +61,7 @@ class SkillCastHelper {
                     return [...acc, ...questionBank.questions];
                 }, []) as SkillCast.Question[];
                 console.log({ allQuestions });
-                const assessmentQuestionElement = this.iframe.contentWindow.document.querySelector('.assessment-question');
+                const assessmentQuestionElement = this.iframe.contentWindow.document.querySelector('.assessment-question') || this.iframe.contentWindow.document.querySelector('.assessmentQuestion');
                 console.log(assessmentQuestionElement);
                 if (!assessmentQuestionElement) {
                     reject(new Error('Question not found'));
